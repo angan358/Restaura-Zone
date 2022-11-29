@@ -16,7 +16,7 @@ nav {
 }
 
 header {
-    background-color: rgb(67, 12, 118);
+    background-color: rgb(214, 132, 38);
 }
 
 .list ul {
@@ -31,6 +31,9 @@ header {
     color: white;
     border-bottom: 2px solid transparent;
     transition: 0.2s ease-in;
+    cursor: pointer;
+    font-size: 20px;
+
 }
 
 .list ul li:hover {
@@ -42,4 +45,11 @@ header {
     color: white;
     font-size: 30px;
     font-weight: 100px;
+}
+
+
+/*Home Section*/
+
+.home {
+    background-image: url(../images/clem-onojeghuo-zlABb6Gke24-unsplash.jpg);
 }
